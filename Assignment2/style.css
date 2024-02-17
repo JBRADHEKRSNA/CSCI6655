@@ -63,11 +63,11 @@ td {
 }
 .consec0 {
   background-color: #ffd0ec;
-  height: 500px;
+  height: 600px;
 }
 .section0 {
   float: left;
-  height: 400px;
+  height: 500px;
   width: 30%;
   padding: 20px;
   margin: 15px;
@@ -84,7 +84,7 @@ td {
 }
 .section1 {
   float: right;
-  height: 400px;
+  height: 500px;
   width: 30%;
   padding: 20px;
   margin: 15px;
@@ -96,12 +96,12 @@ td {
 
 .consec2 {
   background-color: #ffd0ec;
-  height: 650px;
+  height: 750px;
   color: #1f2544;
 }
 .section2 {
   float: left;
-  height: 450px;
+  height: 550px;
   width: 28%;
   padding: 23px;
   margin: 14px;
