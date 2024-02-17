@@ -1,0 +1,150 @@
+html {
+  scroll-behavior: smooth;
+}
+h1 {
+  margin: 39px;
+  font-size: 36px;
+  font-weight: normal;
+}
+h2 {
+  font-size: 36px;
+  padding-top: 10px;
+  font-weight: normal;
+  text-align: center;
+}
+h3 {
+  display: inline;
+  font-size: 30px;
+  padding-top: 10px;
+  font-weight: normal;
+  float: left;
+}
+h4 {
+  display: inline;
+  font-size: 30px;
+  padding-top: 10px;
+  font-weight: normal;
+  float: right;
+}
+p {
+  clear: both;
+  font-size: x-large;
+  padding-top: 10px;
+}
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+th,
+td {
+  width: 150px;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  margin: 20px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1f2544;
+  overflow: hidden;
+}
+.navbar a {
+  padding: 21px;
+  color: #ffd0ec;
+  text-decoration: none;
+  transition-duration: 2s;
+  border-radius: 15px;
+  border: 1px solid #81689d;
+}
+.navbar a:hover {
+  background-color: #ffd0ec;
+  color: #1f2544;
+}
+.consec0 {
+  background-color: #ffd0ec;
+  height: 500px;
+}
+.section0 {
+  float: left;
+  height: 400px;
+  width: 30%;
+  padding: 20px;
+  margin: 15px;
+  background-color: #81689d;
+  color: #1f2544;
+  text-align: center;
+}
+.section0 img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  width: 50%;
+}
+.section1 {
+  float: right;
+  height: 400px;
+  width: 30%;
+  padding: 20px;
+  margin: 15px;
+  margin-right: 33px;
+  background-color: #81689d;
+  color: #1f2544;
+  text-align: left;
+}
+
+.consec2 {
+  background-color: #ffd0ec;
+  height: 650px;
+  color: #1f2544;
+}
+.section2 {
+  float: left;
+  height: 450px;
+  width: 28%;
+  padding: 23px;
+  margin: 14px;
+  background-color: #81689d;
+  color: #1f2544;
+  text-align: center;
+}
+.section2 img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  width: 50%;
+}
+.consec3 {
+  background-color: #ffd0ec;
+  height: 700px;
+}
+.section3 {
+  float: left;
+  height: 500px;
+  width: 93%;
+  padding: 23px;
+  margin: 14px;
+  margin-left: 20px;
+  background-color: #81689d;
+  color: #1f2544;
+}
+.consec4 {
+  background-color: #ffd0ec;
+  height: 300px;
+}
+.section4 {
+  float: left;
+  height: 100px;
+  width: 29%;
+  padding: 12px;
+  margin: 14px;
+  margin-left: 20px;
+  text-align: center;
+}
+.section4 img {
+  height: 90px;
+  width: 100px;
+  border-radius: 27px;
+}
