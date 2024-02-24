@@ -66,7 +66,7 @@ ZZ body {
     "contactme1 contactme2 contactme3";
   height: 100%;
   grid-gap: 2rem;
-  grid-column-gap: 4rem;
+  grid-column-gap: 2rem;
   background-color: var(--pink);
   border-radius: 15px;
   padding: 2%;
