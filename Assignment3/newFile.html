@@ -97,8 +97,9 @@
       #navbar a:hover {
         background-color: var(--pink);
         color: var(--dark);
-        border-radius: 15px;
+        border-radius: 1px;
       }
+
       #whoami {
         grid-area: whoami;
         background-color: var(--bg);
@@ -289,8 +290,9 @@
       @media only screen and (max-width: 500px) {
         .container {
           grid-template-columns: 1fr;
-          grid-template-rows: 1fr 1fr 0.1fr 1fr 1fr 1fr 0.1fr 1fr 1fr 1fr 0.1fr 1fr 1fr 1fr 0.1fr 0.5fr 0.5fr 0.5fr;
+          grid-template-rows: 0.3fr 1fr 1fr 0.1fr 1fr 1fr 1fr 0.1fr 1fr 1fr 1fr 0.1fr 1fr 1fr 1fr 0.1fr 0.5fr 0.5fr 0.5fr;
           grid-template-areas:
+            "navbar"
             "whoami"
             "skills"
             "projects"
@@ -311,7 +313,13 @@
             "contactme3";
         }
         #navbar {
-          display: none;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          text-align: center;
+          background-color: var(--dark);
+          grid-area: navbar;
+          border-radius: 15px;
         }
       }
     </style>
