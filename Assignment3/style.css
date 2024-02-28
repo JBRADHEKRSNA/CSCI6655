@@ -32,19 +32,13 @@ p {
   padding-top: 2%;
   text-align: center;
 }
-td {
-  width: 150px;
-  text-align: center;
-  font-size: 30px;
-  padding: 20px;
-  margin: 20px;
-}
+
 :root {
   --pink: #ffd0ec;
   --bg: #81689d;
   --dark: #1f2544;
 }
-ZZ body {
+body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
