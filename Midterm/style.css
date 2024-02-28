@@ -31,8 +31,7 @@ body {
   background-color: var(--pink);
   border-radius: 15px;
   padding: 2%;
-
-  background: linear-gradient(to right, #9a16d6, #54d12d);
+  background: linear-gradient(135deg, #1c8749, #2e8be3);
 }
 #navbar {
   display: flex;
