@@ -15,7 +15,6 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -81,8 +80,8 @@ object {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin: auto;
-  width: 40%;
+  padding-top: 6%;
+  width: 30%;
 }
 #emc2 {
   grid-area: emc2;
@@ -106,16 +105,17 @@ object {
   grid-area: paper;
   color: var(--pink);
   border-radius: 15px;
+  font-size: 100%;
   background: linear-gradient(270deg, #3d2a8b, #8e38e8);
 }
 #paper1 {
   grid-area: paper1;
   padding: 3%;
   border-radius: 15px;
-
   color: var(--dark);
   background: linear-gradient(to right, #cc2b5e, #753a88);
 }
+
 #paper1 img {
   display: block;
   margin-right: auto;
@@ -203,7 +203,27 @@ object {
       "paper3"
       "paper4";
   }
-  #navbar {
+
+  .container2 {
+    grid-template-columns: 0.3fr 1fr;
+    grid-template-rows: 0.1fr 1fr 0.1fr;
+    grid-template-areas:
+      "navbar paper"
+      "obj obj"
+      ". .";
+  }
+  .container2 #obj {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  object {
+    width: 100%;
+    height: 100%;
+  }
+  .container2 #paper {
+    font-size: 50%;
+  }
+  .container #navbar {
     display: flex;
     flex-direction: column;
     justify-content: center;
