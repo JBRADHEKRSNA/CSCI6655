@@ -222,9 +222,11 @@ object {
   }
   .container2 #paper {
     font-size: 50%;
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
-  .container2#navbar img {
-    padding-top: 10%;
+  .container2 #navbar img {
+    padding-top: 20%;
   }
   .container #navbar {
     display: flex;
