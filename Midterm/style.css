@@ -218,6 +218,9 @@ object {
     width: 100%;
     height: 100%;
   }
+  .container h1 {
+    font-size: 110%;
+  }
   .container2 #paper {
     font-size: 50%;
     padding-top: 5%;
