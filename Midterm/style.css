@@ -152,7 +152,6 @@ object {
   grid-area: paper3;
   padding: 3%;
   border-radius: 15px;
-
   color: var(--dark);
   background: linear-gradient(to right, #cc2b5e, #753a88);
 }
@@ -173,7 +172,6 @@ object {
   grid-area: paper4;
   padding: 3%;
   border-radius: 15px;
-
   color: var(--dark);
   background: linear-gradient(to right, #cc2b5e, #753a88);
 }
