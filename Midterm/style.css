@@ -223,6 +223,9 @@ object {
   .container2 #paper {
     font-size: 50%;
   }
+  .container2#navbar img {
+    padding-top: 10%;
+  }
   .container #navbar {
     display: flex;
     flex-direction: column;
