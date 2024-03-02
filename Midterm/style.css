@@ -31,15 +31,15 @@ body {
   padding: 2%;
   background: linear-gradient(135deg, #1c8749, #2e8be3);
 }
-object {
+iframe {
   border-radius: 15px;
-  height: 90vh;
+  height: 100%;
   width: 100%;
 }
 .container2 {
   display: grid;
-  grid-template-columns: 0.5fr 0.5fr 0.8fr 0.8fr 0.5fr 0.5fr;
-  grid-template-rows: 0.2fr 1fr;
+  grid-template-columns: 0.3fr 0.5fr 0.8fr 0.8fr 0.5fr 0.5fr;
+  grid-template-rows: 0.1fr 1fr;
   grid-template-areas:
     " navbar . paper paper . ."
     "obj obj obj obj obj obj";
@@ -80,7 +80,7 @@ object {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 6%;
+  padding-top: 8%;
   width: 30%;
 }
 #emc2 {
@@ -204,7 +204,7 @@ object {
 
   .container2 {
     grid-template-columns: 0.3fr 1fr;
-    grid-template-rows: 0.1fr 1fr 0.1fr;
+    grid-template-rows: 0.05fr 1.2fr 0.1fr;
     grid-template-areas:
       "navbar paper"
       "obj obj"
@@ -214,7 +214,7 @@ object {
     margin-left: auto;
     margin-right: auto;
   }
-  object {
+  iframe {
     width: 100%;
     height: 100%;
   }
