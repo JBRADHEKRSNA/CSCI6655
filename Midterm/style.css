@@ -31,7 +31,7 @@ body {
   padding: 2%;
   background: linear-gradient(135deg, #1c8749, #2e8be3);
 }
-embed {
+iframezz {
   border-radius: 15px;
   height: 100%;
   width: 100%;
@@ -214,7 +214,7 @@ embed {
     margin-left: auto;
     margin-right: auto;
   }
-  embed {
+  iframe {
     width: 100%;
     height: 100%;
   }
